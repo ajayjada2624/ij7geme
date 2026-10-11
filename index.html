@@ -38,6 +38,50 @@
     .faq{max-width:800px;margin:auto}.faq details{background:#120c0f;border:1px solid #45202a;border-radius:12px;padding:14px 16px;margin:10px 0}.faq summary{cursor:pointer;font-weight:700}
     footer{border-top:1px solid #4b1a24;padding:30px 0 45px;color:#aaa;text-align:center;font-size:13px}
     @media(max-width:700px){nav{display:flex;flex-wrap:wrap;gap:8px}.grid,.features{grid-template-columns:1fr}.hero{padding-top:35px}.brand img{width:46px;height:46px}}
+.menu-toggle {
+  display: none;
+  background: white;
+  color: #1976d2;
+  border: 0;
+  font-size: 28px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+.site-menu {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.site-menu a {
+  color: white;
+  text-decoration: none;
+}
+@media (max-width: 700px) {
+  .menu-toggle {
+    display: block;
+  }
+  header .wrap {
+    position: relative;
+    flex-wrap: wrap;
+  }
+  .site-menu {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    background: white;
+  }
+  .site-menu.open {
+    display: flex;
+  }
+  .site-menu a {
+    color: #263238;
+    padding: 15px 18px;
+    border-top: 1px solid #eeeeee;
+  }
+}
+
   </style>
 
   <script type="application/ld+json">
