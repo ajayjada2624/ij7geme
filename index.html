@@ -57,12 +57,15 @@
       <img src="ij7-logo.jpg" alt="IJ7 Game logo" width="54" height="54">
       <span>IJ7 GAME</span>
     </a>
-    <nav aria-label="Main navigation">
+    
+<button class="menu-toggle" aria-label="Open menu" aria-expanded="false" onclick="var m=document.getElementById('site-menu');var o=m.classList.toggle('open');this.setAttribute('aria-expanded',o);this.textContent=o?'✕':'☰';">☰</button>
+<nav id="site-menu" class="site-menu" aria-label="Main navigation">
   <a href="about-us.html">About Us</a>
   <a href="contact-us.html">Contact Us</a>
   <a href="privacy-policy.html">Privacy Policy</a>
   <a href="disclaimer.html">Disclaimer</a>
-    </nav>
+</nav>
+
   </div>
 </header>
 
