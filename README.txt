@@ -1,39 +1,41 @@
-IJ7 Game website package
+IJ7 Game Website
+================
 
-Upload these files to the root of your website:
+Website URL
+-----------
+https://ij7geme.com/
 
--   index.html
--   sitemap.xml
--   robots.txt
--   images/
+Overview
+--------
+This website provides information about the IJ7 Game platform, including game-category descriptions, mobile access information, frequently asked questions, and links to related policy pages.
 
-Important: 1. Keep the images folder and filenames unchanged. 2. After
-publishing, open https://ij7geme.com/ and check that all 4 images are
-visible. 3. In Google Search Console, add https://ij7geme.com/ and
-submit: https://ij7geme.com/sitemap.xml 4. Request indexing for:
-https://ij7geme.com/ 5. Google ranking is not guaranteed by HTML/SEO
-alone. Content quality, indexing, links, site performance, and ongoing
-updates can also affect rankings.
+Main Website Files
+------------------
+- index.html: Main homepage.
+- about-us.html: About Us page (if published).
+- contact-us.html: Contact Us page (if published).
+- privacy-policy.html: Privacy Policy page (if published).
+- disclaimer.html: Disclaimer page (if published).
+- sitemap.xml: Sitemap for search engines.
 
-Other website files shown in the repository: - about-us.html -
-contact-us.html - privacy-policy.html - disclaimer.html - CNAME -
-ij7-game-1.jpg - ij7-game-2.jpg - ij7-game-3.jpg - ij7-game-4.jpg -
-ij7-logo.jpg
+Image Files
+-----------
+The homepage references these image files. Upload them to the same folder as index.html, using the exact filenames:
+- ij7-logo.jpg
+- ij7-game-reward-banner.jpg
+- ij7-game-wheel.jpg
+- ij7-games-lobby.jpg
+- ij7-games-library.jpg
+- ij7-promotion.jpg
 
-Make sure all pages and image assets referenced by index.html are
-uploaded to the correct locations. If the website uses an images/
-folder, keep the folder structure and image filenames exactly as
-referenced in the HTML.
+Publishing Notes
+----------------
+1. Upload the website files to your hosting account's public_html folder (or the folder configured as your website's document root).
+2. Keep image filenames and paths consistent with the HTML.
+3. Confirm that every linked policy page exists before submitting the sitemap to search engines.
+4. After publishing, open https://ij7geme.com/sitemap.xml to confirm it is accessible.
+5. Submit the sitemap in Google Search Console if you use it.
 
-Publishing checklist: [ ] Upload the website files to the hosting
-provider or GitHub Pages root. [ ] Confirm the custom domain points to
-the correct hosting service. [ ] Open https://ij7geme.com/ and check the
-homepage. [ ] Check that all four game images load. [ ] Open
-https://ij7geme.com/robots.txt and confirm it loads. [ ] Open
-https://ij7geme.com/sitemap.xml and confirm it loads. [ ] Submit the
-sitemap in Google Search Console. [ ] Request indexing for the homepage
-and important pages.
-
-Note: Search engines may take time to crawl and index a website.
-Submitting a sitemap or requesting indexing does not guarantee immediate
-indexing or a particular ranking.
+Important
+---------
+Online gaming laws and age requirements vary by location. Check applicable local laws and platform terms before using or promoting gaming services. Do not describe uncertain outcomes or rewards as guaranteed.
