@@ -152,6 +152,32 @@
             color: #777;
             border-top: 1px solid #2d2d4f;
         }
+
+        /* Responsive layout improvements */
+        img { max-width: 100%; }
+        header { gap: 16px; flex-wrap: wrap; }
+        nav { display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap; gap: 10px; }
+        nav a { margin-left: 0; padding: 6px 0; }
+        .hero { overflow-wrap: anywhere; }
+        .hero h1 { line-height: 1.2; }
+        .container { box-sizing: border-box; }
+        .card, .features-section, .faq-item { box-sizing: border-box; }
+        a:focus-visible { outline: 2px solid var(--accent-color); outline-offset: 4px; }
+        @media (max-width: 600px) {
+            header { padding: 12px 16px; justify-content: center; }
+            .logo-container { justify-content: center; }
+            .logo-text { font-size: 21px; }
+            nav { width: 100%; justify-content: center; gap: 8px 16px; }
+            nav a { font-size: 13px; }
+            .hero { padding: 28px 16px; }
+            .hero-banner { width: 100%; margin-bottom: 18px; }
+            .hero h1 { font-size: clamp(1.65rem, 7vw, 2.2rem); }
+            .hero p { font-size: 1rem; }
+            .btn-download { padding: 13px 22px; font-size: 16px; max-width: 100%; box-sizing: border-box; }
+            .container { padding: 28px 16px; }
+            .grid { grid-template-columns: 1fr; gap: 14px; }
+            .features-section { padding: 20px 16px; }
+        }
     </style>
 
     <!-- FAQ JSON-LD Schema for Google SEO -->
@@ -203,7 +229,7 @@
             <a href="#about">About Us</a>
             <a href="#features">Features</a>
             <a href="#faq">FAQ</a>
-            <a href="https://ij7v9.com" style="color: var(--accent-color); font-weight: bold;">Download App</a>
+            <a href="https://share.ij7v9.com/share/agent/AA6AE7YV" style="color: var(--accent-color); font-weight: bold;">Download App</a>
         </nav>
     </header>
 
@@ -214,7 +240,7 @@
         <h1>IJ7 Game, IJ7 App & IJ7 Download Portal</h1>
         <p>Explore a premium collection of online gaming entertainment designed seamlessly for your devices.</p>
         
-        <a href="https://ij7v9.com" class="btn-download">⬇ DOWNLOAD IJ7 APP NOW</a>
+        <a href="https://share.ij7v9.com/share/agent/AA6AE7YV" class="btn-download">⬇ DOWNLOAD IJ7 APP NOW</a>
         
         <span class="warning-tag">⚠️ 18+ only where legally permitted. Play responsibly and check local laws.</span>
     </section>
@@ -269,3 +295,19 @@
 
             <div class="faq-item">
                 <h4>Can I play on mobile?</h4>
+                <p>Yes. The website layout is designed to adapt to mobile phones, tablets, and desktop screens.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>Are winnings guaranteed on IJ7 Game?</h4>
+                <p>No. Outcomes are uncertain and winnings are not guaranteed. Please play responsibly and follow local laws.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>18+ only where legally permitted. Online gaming laws vary by location; check your local regulations and play responsibly.</p>
+        <p>&copy; <span id="current-year">2026</span> IJ7 Game. All rights reserved.</p>
+    </footer>
+</body>
+</html>
