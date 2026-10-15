@@ -127,6 +127,16 @@
             text-align: center;
             border: 1px solid #2d2d4f;
         }
+        .card-img {
+            width: 100%;
+            max-width: 320px;
+            height: auto;
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+            border-radius: 8px;
+            display: block;
+            margin: 0 auto 14px;
+        }
         .card h3 {
             color: var(--primary-color);
             margin-top: 10px;
@@ -230,7 +240,7 @@
     <header>
         <div class="logo-container">
             <!-- 1. લોગો ઇમેજ (અહીં તમારો logo.png ફોટો અપલોડ કરો) -->
-            <img src="logo.png" alt="IJ7 Logo" class="logo-img" onerror="this.style.display='none'">
+            <img src="ij7-logo.jpg" alt="IJ7 Logo" class="logo-img" onerror="this.style.display='none'">
             <div class="logo-text">IJ7 GAME</div>
         </div>
         <nav>
@@ -261,18 +271,22 @@
             
             <div class="grid">
                 <div class="card">
+                    <img src="ij7-game-wheel.jpg" alt="IJ7 Game Wheel" class="card-img" loading="lazy" decoding="async">
                     <h3>Game Wheel</h3>
                     <p>Interactive game wheel graphics and premium entertainment modules.</p>
                 </div>
                 <div class="card">
+                    <img src="ij7-games-lobby.jpg" alt="IJ7 Games Lobby" class="card-img" loading="lazy" decoding="async">
                     <h3>Game Lobby</h3>
                     <p>Browse sports categories and multiple action-packed online game selections.</p>
                 </div>
                 <div class="card">
+                    <img src="ij7-games-library.jpg" alt="IJ7 Games Library" class="card-img" loading="lazy" decoding="async">
                     <h3>Game Library</h3>
                     <p>A broad visual collection of immersive game titles and custom themes.</p>
                 </div>
                 <div class="card">
+                    <img src="ij7-promotion.jpg" alt="IJ7 Game Promotions" class="card-img" loading="lazy" decoding="async">
                     <h3>Promotions</h3>
                     <p>Exclusive promotional updates and featured digital artwork content.</p>
                 </div>
