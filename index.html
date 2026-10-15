@@ -1,224 +1,271 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#10090c">
-  <title>IJ7geme | IJ7 Game, IJ7 App & IJ7 Download</title>
-  <meta name="description" content="Visit IJ7geme for IJ7 Game website information, IJ7 App details and IJ7 Download guidance. Explore IJ7 and IN7 information and check local rules before use.">
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-  <meta name="keywords" content="IJ7, IJ7 Game, IN7, IJ7 App, IJ7 Download, IJ7geme">
-  <link rel="canonical" href="https://ij7geme.com/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IJ7 Game | Official IJ7 App Download</title>
+    <meta name="description" content="Download the official IJ7 Game App. Experience seamless mobile gaming with multiple entertainment categories and sports themes. Secure IJ7 Download here.">
+    <meta name="keywords" content="IJ7, IJ7 Game, IN7, IJ7 App, IJ7 Download">
+    <style>
+        :root {
+            --primary-color: #ff9900;
+            --secondary-color: #1a1a2e;
+            --text-color: #ffffff;
+            --accent-color: #00e676;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--secondary-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #0f0f1b;
+            padding: 10px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid var(--primary-color);
+        }
+        /* Logo Styling */
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        .logo-img {
+            height: 45px; /* તમે લોગોની સાઈઝ અહીંથી નાની-મોટી કરી શકો છો */
+            width: auto;
+            margin-right: 10px;
+        }
+        .logo-text {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+        nav a {
+            color: #ccc;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 14px;
+            vertical-align: middle;
+        }
+        nav a:hover {
+            color: var(--primary-color);
+        }
+        .hero {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(180deg, #16162a 0%, #0f0f1b 100%);
+        }
+        /* Banner Photo Styling */
+        .hero-banner {
+            max-width: 100%;
+            width: 600px; /* બેનર ફોટોની પહોળાઈ */
+            height: auto;
+            border-radius: 15px;
+            margin-bottom: 25px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: var(--text-color);
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: #b0b0b0;
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+        }
+        .btn-download {
+            background-color: var(--accent-color);
+            color: #000;
+            padding: 15px 40px;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 30px;
+            box-shadow: 0 4px 15px rgba(0, 230, 118, 0.4);
+            display: inline-block;
+            transition: transform 0.2s, background-color 0.2s;
+        }
+        .btn-download:hover {
+            transform: scale(1.05);
+            background-color: #00c853;
+        }
+        .warning-tag {
+            color: #ff5252;
+            font-size: 12px;
+            margin-top: 15px;
+            display: block;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .card {
+            background-color: #1f1f38;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid #2d2d4f;
+        }
+        .card h3 {
+            color: var(--primary-color);
+            margin-top: 10px;
+        }
+        .features-section {
+            background-color: #16162a;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 40px 0;
+        }
+        .faq-item {
+            background-color: #1f1f38;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 4px solid var(--primary-color);
+        }
+        .faq-item h4 {
+            margin: 0 0 10px 0;
+            color: #ffffff;
+        }
+        .faq-item p {
+            margin: 0;
+            color: #b0b0b0;
+        }
+        footer {
+            background-color: #0f0f1b;
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 13px;
+            color: #777;
+            border-top: 1px solid #2d2d4f;
+        }
+    </style>
 
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="IJ7geme | IJ7 Game, IJ7 App & IJ7 Download">
-  <meta property="og:description" content="Visit IJ7geme for IJ7 Game website information, IJ7 App details and IJ7 Download guidance. Explore IJ7 and IN7 information.">
-  <meta property="og:url" content="https://ij7geme.com/">
-  <meta property="og:image" content="https://ij7geme.com/ij7-logo.jpg">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="IJ7geme | IJ7 Game">
-  <meta name="twitter:description" content="IJ7geme website information, IJ7 App details and IJ7 Download guidance.">
-
-  <style>
-    :root{--bg:#080708;--card:#171014;--red:#e51f3d;--gold:#f7c95a;--text:#fff;--muted:#c9bfc2}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}
-    body{margin:0;background:radial-gradient(circle at top,#3a101b 0,#10090c 34%,#080708 75%);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
-    a{color:inherit;text-decoration:none}.wrap{width:min(1100px,92%);margin:auto}
-    header{position:sticky;top:0;z-index:10;background:rgba(8,7,8,.94);border-bottom:1px solid #5b1a26;backdrop-filter:blur(8px)}
-    .nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:18px}
-    .brand{display:flex;align-items:center;gap:12px;font-weight:800;font-size:20px}.brand img{width:54px;height:54px;object-fit:cover;border-radius:10px}
-    nav{display:flex;gap:18px;font-size:14px;color:#eee}nav a:hover{color:var(--gold)}
-    .hero{padding:55px 0 35px;text-align:center}.hero img{width:min(180px,45vw);height:auto;border-radius:18px;box-shadow:0 15px 50px #000}
-    h1{font-size:clamp(32px,6vw,58px);line-height:1.05;margin:24px 0 12px}
-    .hero p{max-width:720px;margin:0 auto 24px;color:var(--muted);font-size:18px}
-    .btn{display:inline-block;background:linear-gradient(135deg,#ff2949,#a90822);padding:13px 25px;border-radius:999px;font-weight:800;border:1px solid #ff667b;box-shadow:0 8px 25px #000}
-    .notice{margin:15px auto 0;color:#ffd98a;font-size:13px}
-    section{padding:35px 0}.section-title{text-align:center;font-size:30px;margin:0 0 10px}.section-sub{text-align:center;color:var(--muted);margin:0 auto 25px;max-width:720px}
-    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.card{background:linear-gradient(180deg,#201217,#110b0e);border:1px solid #54202b;border-radius:18px;overflow:hidden;box-shadow:0 12px 35px #000}
-    .card img{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover}.card-body{padding:16px}.card h3{margin:0 0 5px;color:var(--gold)}.card p{margin:0;color:var(--muted);font-size:14px}
-    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.feature{padding:20px;border:1px solid #54202b;border-radius:15px;background:#120c0f;text-align:center}.feature b{display:block;color:var(--gold);margin-bottom:5px}
-    .faq{max-width:800px;margin:auto}.faq details{background:#120c0f;border:1px solid #45202a;border-radius:12px;padding:14px 16px;margin:10px 0}.faq summary{cursor:pointer;font-weight:700}
-    footer{border-top:1px solid #4b1a24;padding:30px 0 45px;color:#aaa;text-align:center;font-size:13px}
-    @media(max-width:700px){nav{display:flex;flex-wrap:wrap;gap:8px}.grid,.features{grid-template-columns:1fr}.hero{padding-top:35px}.brand img{width:46px;height:46px}}
-.menu-toggle {
-  display: none;
-  background: white;
-  color: #1976d2;
-  border: 0;
-  font-size: 28px;
-  padding: 8px 14px;
-  cursor: pointer;
-}
-.site-menu {
-  display: flex;
-  align-items: center;
-  gap: 18px;
-}
-.site-menu a {
-  color: white;
-  text-decoration: none;
-}
-@media (max-width: 700px) {
-  .menu-toggle {
-    display: block;
-  }
-  header .wrap {
-    position: relative;
-    flex-wrap: wrap;
-  }
-  .site-menu {
-    display: none;
-    width: 100%;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0;
-    background: white;
-  }
-  .site-menu.open {
-    display: flex;
-  }
-  .site-menu a {
-    color: #263238;
-    padding: 15px 18px;
-    border-top: 1px solid #eeeeee;
-  }
-}
-
-  </style>
-
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"WebSite",
-    "name":"IJ7 Game",
-    "url":"https://ij7geme.com/",
-    "description":"Online gaming and entertainment content from IJ7 Game."
-  }
-  </script>
+    <!-- FAQ JSON-LD Schema for Google SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "What is IJ7 Game?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "IJ7 Game is an online gaming and entertainment platform featuring a wide variety of mobile-friendly game categories and interactive sports themes."
+        }
+      },{
+        "@type": "Question",
+        "name": "Is IJ7 Game available everywhere?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Availability and legality of online gaming vary by location. Please check the local laws and age requirements in your region before participating."
+        }
+      },{
+        "@type": "Question",
+        "name": "Can I play IJ7 Game on mobile devices?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, the IJ7 platform is fully responsive and optimized to provide a smooth user experience across all mobile browsers, tablets, and desktop devices."
+        }
+      },{
+        "@type": "Question",
+        "name": "Are winnings guaranteed on IJ7 Game?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Games involving chance have uncertain outcomes. Promotional materials should never be treated as a guarantee of winnings. Play responsibly."
+        }
+      }]
+    }
+    </script>
 </head>
 <body>
-<header>
-  <div class="wrap nav">
-    <a class="brand" href="/" aria-label="IJ7 Game home">
-      <img src="ij7-logo.jpg" alt="IJ7 Game logo" width="54" height="54">
-      <span>IJ7 GAME</span>
-    </a>
-    
-<button class="menu-toggle" aria-label="Open menu" aria-expanded="false" onclick="var m=document.getElementById('site-menu');var o=m.classList.toggle('open');this.setAttribute('aria-expanded',o);this.textContent=o?'✕':'☰';">☰</button>
-<nav id="site-menu" class="site-menu" aria-label="Main navigation">
-  <a href="about-us.html">About Us</a>
-  <a href="contact-us.html">Contact Us</a>
-  <a href="privacy-policy.html">Privacy Policy</a>
-  <a href="disclaimer.html">Disclaimer</a>
-</nav>
 
-  </div>
-</header>
+    <header>
+        <div class="logo-container">
+            <!-- 1. લોગો ઇમેજ (અહીં તમારો logo.png ફોટો અપલોડ કરો) -->
+            <img src="logo.png" alt="IJ7 Logo" class="logo-img" onerror="this.style.display='none'">
+            <div class="logo-text">IJ7 GAME</div>
+        </div>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#features">Features</a>
+            <a href="#faq">FAQ</a>
+            <a href="https://ij7v9.com" style="color: var(--accent-color); font-weight: bold;">Download App</a>
+        </nav>
+    </header>
 
-<main id="home">
+    <section class="hero">
+        <!-- 2. મેઈન મોટો ફોટો / બેનર (અહીં તમારો banner.jpg ફોટો અપલોડ કરો) -->
+        <img src="banner.jpg" alt="IJ7 Game Banner" class="hero-banner" onerror="this.style.display='none'">
 
+        <h1>IJ7 Game, IJ7 App & IJ7 Download Portal</h1>
+        <p>Explore a premium collection of online gaming entertainment designed seamlessly for your devices.</p>
+        
+        <a href="https://ij7v9.com" class="btn-download">⬇ DOWNLOAD IJ7 APP NOW</a>
+        
+        <span class="warning-tag">⚠️ 18+ only where legally permitted. Play responsibly and check local laws.</span>
+    </section>
 
+    <div class="container">
+        
+        <section id="about">
+            <h2>Explore IJ7 Game Categories</h2>
+            <p>Welcome to the ultimate IJ7 entertainment hub. Before installing any application, always verify the source, review requested system permissions, and ensure its usage complies with your local regulations.</p>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3>Game Wheel</h3>
+                    <p>Interactive game wheel graphics and premium entertainment modules.</p>
+                </div>
+                <div class="card">
+                    <h3>Game Lobby</h3>
+                    <p>Browse sports categories and multiple action-packed online game selections.</p>
+                </div>
+                <div class="card">
+                    <h3>Game Library</h3>
+                    <p>A broad visual collection of immersive game titles and custom themes.</p>
+                </div>
+                <div class="card">
+                    <h3>Promotions</h3>
+                    <p>Exclusive promotional updates and featured digital artwork content.</p>
+                </div>
+            </div>
+        </section>
 
+        <section id="features" class="features-section">
+            <h2>Why Choose IJ7 Game Platform?</h2>
+            <ul>
+                <li><strong>Mobile-First Interface:</strong> Fully responsive code structure optimized for fast rendering on mobile devices, tablets, and desktops.</li>
+                <li><strong>Diverse Selections:</strong> Multiple entertainment modes tailored to user interests.</li>
+                <li><strong>Responsible Gaming Infrastructure:</strong> Safety guidelines built to respect local regulations and promote safe gameplay environments.</li>
+            </ul>
+        </section>
 
-  <section class="hero wrap" aria-label="Download IJ7 Game">
-    <a class="btn" href="https://share.ij7v9.com/share/agent/AA6AE7YV" target="_blank" rel="noopener noreferrer">Download</a>
-    <div class="notice">18+ only where legally permitted. Play responsibly and check the laws in your location.</div>
-  </section>
+        <section id="faq">
+            <h2>Frequently Asked Questions (FAQ)</h2>
+            
+            <div class="faq-item">
+                <h4>What is IJ7 Game?</h4>
+                <p>IJ7 Game is presented here as an online gaming and entertainment website featuring different game categories and visual content.</p>
+            </div>
 
-  <section id="keyword-guide" class="wrap">
-    <h2 class="section-title">IJ7 Game, IJ7 App & IJ7 Download Information</h2>
-    <p class="section-sub">This page provides general information related to IJ7, IJ7 Game, IN7, IJ7 App and IJ7 Download. Before installing any app, verify its source, review requested permissions, and make sure its use is legal in your location.</p>
-  </section>
+            <div class="faq-item">
+                <h4>Is IJ7 Game available everywhere?</h4>
+                <p>Availability and legality of online gaming vary by location. Check the laws and age requirements where you live.</p>
+            </div>
 
-  <section id="games" class="wrap">
-    <h2 class="section-title">IJ7 Game Categories</h2>
-    <p class="section-sub">A visual look at the gaming content and categories featured on IJ7.</p>
-    <div class="grid">
-      <article class="card">
-        <img src="ij7-games-library.jpg" alt="IJ7 Game wheel and game screen" width="1080" height="1920" loading="lazy">
-        <div class="card-body"><h3>Game Wheel</h3><p>Game wheel interface and entertainment graphics.</p></div>
-      </article>
-      <article class="card">
-        <img src="ij7-games-lobby.jpg" alt="IJ7 Game lobby with sports and game categories" width="1080" height="1080" loading="lazy">
-        <div class="card-body"><h3>Game Lobby</h3><p>Browse sports and multiple entertainment game categories.</p></div>
-      </article>
-      <article class="card">
-        <img src="ij7-promotion.jpg" alt="IJ7 Game library showing multiple game titles" width="1080" height="1080" loading="lazy">
-        <div class="card-body"><h3>Game Library</h3><p>Explore a visual collection of game titles and themes.</p></div>
-      </article>
-      <article class="card">
-        <img src="ij7-game-wheel.jpg" alt="IJ7 Game promotional graphic" width="1080" height="1920" loading="lazy">
-        <div class="card-body"><h3>Promotions</h3><p>Promotional artwork and featured entertainment content.</p></div>
-      </article>
-    </div>
-  <section id="about" class="wrap" aria-labelledby="about-title">
-  <h2 id="about-title" class="section-title">About IJ7 Game</h2>
-  <p class="section-sub">
-    IJ7 Game is an online gaming website featuring different game categories
-    and entertainment content in a mobile-friendly layout.
-  </p>
-
-  <div class="features">
-    <article class="card">
-      <div class="card-body">
-        <h3>Explore IJ7 Game Categories</h3>
-        <p>
-          Explore IJ7 Game and discover different gaming categories,
-          including online game categories, sports-related entertainment
-          and other popular game themes.
-        </p>
-      </div>
-    </article>
-
-    <article class="card">
-      <div class="card-body">
-        <h3>Mobile-Friendly Experience</h3>
-        <p>
-          IJ7 Game uses a responsive layout designed for mobile phones,
-          tablets and desktop devices.
-        </p>
-      </div>
-    </article>
-
-    <article class="card">
-      <div class="card-body">
-        <h3>IJ7 Game Information</h3>
-        <p>
-          Explore information about IJ7 Game categories, website features,
-          promotional graphics and online gaming entertainment.
-        </p>
-      </div>
-    </article>
-  </div>
-</section>
-
-
-
-  <section id="features" class="wrap">
-    <h2 class="section-title">Why IJ7 Game?</h2>
-    <div class="features">
-      <div class="feature"><b>Mobile Friendly</b><span>Designed to work smoothly on phones and desktops.</span></div>
-      <div class="feature"><b>Game Categories</b><span>Online games and entertainment themes.</span></div>
-      <div class="feature"><b>Responsible Play</b><span>18+ only where applicable. Follow local rules and play responsibly.</span></div>
-    </div>
-  </section>
-
-  <section id="faq" class="wrap">
-    <h2 class="section-title">FAQ</h2>
-    <div class="faq">
-      <details><summary>What is IJ7 Game?</summary><p>IJ7 Game is presented here as an online gaming and entertainment website featuring different game categories and visual content.</p></details>
-      <details><summary>Is IJ7 Game available everywhere?</summary><p>Availability and legality of online gaming vary by location. Check the laws and age requirements where you live.</p></details>
-      <details><summary>Can I play on mobile?</summary><p>This website is responsive and designed for mobile browsers as well as desktop screens.</p></details>
-      <details><summary>Are winnings guaranteed?</summary><p>No. Games involving chance have uncertain outcomes. Never treat promotional material as a guarantee of winnings.</p></details>
-    </div>
-  </section>
-</main>
-
-<footer>
-  <div class="wrap">
-    <p>© 2026 IJ7 Game. All rights reserved.</p>
-    <p>18+ where legally required. Please play responsibly and comply with applicable local laws.</p>
-  </div>
-</footer>
-</body>
-</html>
+            <div class="faq-item">
+                <h4>Can I play on mobile?</h4>
