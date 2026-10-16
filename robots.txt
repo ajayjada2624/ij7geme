@@ -2,4 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://ij7geme.com/sitemap.xml
-
