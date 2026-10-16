@@ -3,20 +3,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>IJ7geme | IJ7 Game, IJ7 App & IJ7 Download</title>
-  <meta name="description" content="Visit IJ7geme for IJ7 Game website information, IJ7 App details and IJ7 Download guidance. Explore IJ7 and IN7 information and check local rules before use.">
+    <meta name="theme-color" content="#10090c">
+  <title>IJ7geme | IJ7 Game, App Information & Download Guide</title>
+  <meta name="description" content="Visit IJ7geme for IJ7 Game information, app details, game categories and download guidance. Review app permissions and local rules before use.">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <meta name="keywords" content="IJ7, IJ7 Game, IN7, IJ7 App, IJ7 Download, IJ7geme">
   <link rel="canonical" href="https://ij7geme.com/">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="IJ7geme | IJ7 Game, IJ7 App & IJ7 Download">
-  <meta property="og:description" content="Visit IJ7geme for IJ7 Game website information, IJ7 App details and IJ7 Download guidance. Explore IJ7 and IN7 information.">
+  <meta property="og:title" content="IJ7geme | IJ7 Game, App Information & Download Guide">
+  <meta property="og:description" content="IJ7 Game information, app details, game categories and download guidance. Review app permissions and local rules before use.">
   <meta property="og:url" content="https://ij7geme.com/">
   <meta property="og:image" content="https://ij7geme.com/ij7-logo.jpg">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="IJ7geme | IJ7 Game">
+  <meta name="twitter:title" content="IJ7geme | IJ7 Game, App Information & Download Guide">
   <meta name="twitter:description" content="IJ7geme website information, IJ7 App details and IJ7 Download guidance.">
+  <meta name="twitter:image" content="https://ij7geme.com/ij7-logo.jpg">
 
   <style>
     :root{--bg:#080708;--card:#171014;--red:#e51f3d;--gold:#f7c95a;--text:#fff;--muted:#c9bfc2}
@@ -27,14 +29,14 @@
     .nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:18px}
     .brand{display:flex;align-items:center;gap:12px;font-weight:800;font-size:20px}.brand img{width:54px;height:54px;object-fit:cover;border-radius:10px}
     nav{display:flex;gap:18px;font-size:14px;color:#eee}nav a:hover{color:var(--gold)}
-    .hero{padding:55px 0 35px;text-align:center}.hero img{width:min(180px,45vw);height:auto;border-radius:18px;box-shadow:0 15px 50px #000}
+    .hero{padding:55px 0 35px;text-align:center}.hero-photo{display:block;width:min(220px,55vw);height:auto;aspect-ratio:1/1;object-fit:cover;border-radius:22px;margin:0 auto 28px;box-shadow:0 15px 50px #000}.hero .btn{margin-top:0}
     h1{font-size:clamp(32px,6vw,58px);line-height:1.05;margin:24px 0 12px}
     .hero p{max-width:720px;margin:0 auto 24px;color:var(--muted);font-size:18px}
     .btn{display:inline-block;background:linear-gradient(135deg,#ff2949,#a90822);padding:13px 25px;border-radius:999px;font-weight:800;border:1px solid #ff667b;box-shadow:0 8px 25px #000}
     .notice{margin:15px auto 0;color:#ffd98a;font-size:13px}
     section{padding:35px 0}.section-title{text-align:center;font-size:30px;margin:0 0 10px}.section-sub{text-align:center;color:var(--muted);margin:0 auto 25px;max-width:720px}
     .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.card{background:linear-gradient(180deg,#201217,#110b0e);border:1px solid #54202b;border-radius:18px;overflow:hidden;box-shadow:0 12px 35px #000}
-    .card img{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover}.card-body{padding:16px}.card h3{margin:0 0 5px;color:var(--gold)}.card p{margin:0;color:var(--muted);font-size:14px}
+    .card img{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain;background:#0b080a}.card-body{padding:16px}.card h3{margin:0 0 5px;color:var(--gold)}.card p{margin:0;color:var(--muted);font-size:14px}
     .features{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.feature{padding:20px;border:1px solid #54202b;border-radius:15px;background:#120c0f;text-align:center}.feature b{display:block;color:var(--gold);margin-bottom:5px}
     .faq{max-width:800px;margin:auto}.faq details{background:#120c0f;border:1px solid #45202a;border-radius:12px;padding:14px 16px;margin:10px 0}.faq summary{cursor:pointer;font-weight:700}
     footer{border-top:1px solid #4b1a24;padding:30px 0 45px;color:#aaa;text-align:center;font-size:13px}
@@ -60,6 +62,9 @@
 @media (max-width: 700px) {
   .menu-toggle {
     display: block;
+    min-width: 68px;
+    min-height: 62px;
+    font-size: 40px;
   }
   header .wrap {
     position: relative;
@@ -71,15 +76,22 @@
     flex-direction: column;
     align-items: stretch;
     gap: 0;
-    background: white;
+    background: #120c0f;
+    border: 1px solid #54202b;
+    border-radius: 12px;
+    overflow: hidden;
   }
   .site-menu.open {
     display: flex;
   }
   .site-menu a {
-    color: #263238;
+    color: #ffffff;
     padding: 15px 18px;
-    border-top: 1px solid #eeeeee;
+    border-top: 1px solid #54202b;
+  }
+  .site-menu a:hover {
+    background: #281018;
+    color: #f7c95a;
   }
 }
 
@@ -115,12 +127,13 @@
 </header>
 
 <main id="home">
-  <section class="hero wrap">
-    <img src="ij7-logo.jpg" alt="IJ7 Game red and silver logo" width="600" height="600">
-    <h1>IJ7geme - IJ7 Game</h1>
-    <p>Explore IJ7geme website information, IJ7 Game, IJ7 App, and IJ7 Download guidance. Learn about IJ7 and IN7, and check app permissions and local rules before downloading.</p>
+
+
+
+
+  <section class="hero wrap" aria-label="Download IJ7 Game">
+    <img class="hero-photo" src="ij7-hero-photo.jpg" alt="IJ7 Game logo" width="220" height="220">
     <a class="btn" href="https://share.ij7v9.com/share/agent/AA6AE7YV" target="_blank" rel="noopener noreferrer">Download</a>
-    <div class=</div>
   </section>
 
   <section id="keyword-guide" class="wrap">
@@ -133,8 +146,8 @@
     <p class="section-sub">A visual look at the gaming content and categories featured on IJ7.</p>
     <div class="grid">
       <article class="card">
-        <img src="ij7-game-wheel.jpg" alt="IJ7 Game wheel and casino game screen" width="1080" height="1920" loading="lazy">
-        <div class="card-body"><h3>Game Wheel</h3><p>Casino-style wheel game interface and entertainment graphics.</p></div>
+        <img src="ij7-game-wheel.jpg" alt="IJ7 Game wheel and game screen" width="1080" height="1920" loading="lazy">
+        <div class="card-body"><h3>Game Wheel</h3><p>Game wheel interface and entertainment graphics.</p></div>
       </article>
       <article class="card">
         <img src="ij7-games-lobby.jpg" alt="IJ7 Game lobby with sports and game categories" width="1080" height="1080" loading="lazy">
@@ -164,7 +177,7 @@
         <h3>Explore IJ7 Game Categories</h3>
         <p>
           Explore IJ7 Game and discover different gaming categories,
-          including slots, casino-style games, sports-related entertainment
+          including online game categories, sports-related entertainment
           and other popular game themes.
         </p>
       </div>
@@ -198,7 +211,7 @@
     <h2 class="section-title">Why IJ7 Game?</h2>
     <div class="features">
       <div class="feature"><b>Mobile Friendly</b><span>Designed to work smoothly on phones and desktops.</span></div>
-      <div class="feature"><b>Game Categories</b><span>Online games, sports and entertainment themes.</span></div>
+      <div class="feature"><b>Game Categories</b><span>Online games and entertainment themes.</span></div>
       <div class="feature"><b>Responsible Play</b><span>18+ only where applicable. Follow local rules and play responsibly.</span></div>
     </div>
   </section>
